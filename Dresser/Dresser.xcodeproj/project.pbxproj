@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05EE834F204F09F500639E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE834E204F09F500639E31 /* AppDelegate.swift */; };
+		05EE8351204F09F500639E31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE8350204F09F500639E31 /* ViewController.swift */; };
+		05EE8354204F09F500639E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05EE8352204F09F500639E31 /* Main.storyboard */; };
+		05EE8356204F09F500639E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05EE8355204F09F500639E31 /* Assets.xcassets */; };
+		05EE8359204F09F500639E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05EE8357204F09F500639E31 /* LaunchScreen.storyboard */; };
+		05EE8364204F09F500639E31 /* DresserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE8363204F09F500639E31 /* DresserTests.swift */; };
+		05EE836F204F09F500639E31 /* DresserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE836E204F09F500639E31 /* DresserUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05EE8360204F09F500639E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05EE8343204F09F500639E31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05EE834A204F09F500639E31;
+			remoteInfo = Dresser;
+		};
+		05EE836B204F09F500639E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05EE8343204F09F500639E31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05EE834A204F09F500639E31;
+			remoteInfo = Dresser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05EE834B204F09F500639E31 /* Dresser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dresser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05EE834E204F09F500639E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05EE8350204F09F500639E31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05EE8353204F09F500639E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05EE8355204F09F500639E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05EE8358204F09F500639E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05EE835A204F09F500639E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05EE835F204F09F500639E31 /* DresserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DresserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05EE8363204F09F500639E31 /* DresserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DresserTests.swift; sourceTree = "<group>"; };
+		05EE8365204F09F500639E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05EE836A204F09F500639E31 /* DresserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DresserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05EE836E204F09F500639E31 /* DresserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DresserUITests.swift; sourceTree = "<group>"; };
+		05EE8370204F09F500639E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05EE8348204F09F500639E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05EE835C204F09F500639E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05EE8367204F09F500639E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05EE8342204F09F500639E31 = {
+			isa = PBXGroup;
+			children = (
+				05EE834D204F09F500639E31 /* Dresser */,
+				05EE8362204F09F500639E31 /* DresserTests */,
+				05EE836D204F09F500639E31 /* DresserUITests */,
+				05EE834C204F09F500639E31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05EE834C204F09F500639E31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05EE834B204F09F500639E31 /* Dresser.app */,
+				05EE835F204F09F500639E31 /* DresserTests.xctest */,
+				05EE836A204F09F500639E31 /* DresserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05EE834D204F09F500639E31 /* Dresser */ = {
+			isa = PBXGroup;
+			children = (
+				05EE834E204F09F500639E31 /* AppDelegate.swift */,
+				05EE8350204F09F500639E31 /* ViewController.swift */,
+				05EE8352204F09F500639E31 /* Main.storyboard */,
+				05EE8355204F09F500639E31 /* Assets.xcassets */,
+				05EE8357204F09F500639E31 /* LaunchScreen.storyboard */,
+				05EE835A204F09F500639E31 /* Info.plist */,
+			);
+			path = Dresser;
+			sourceTree = "<group>";
+		};
+		05EE8362204F09F500639E31 /* DresserTests */ = {
+			isa = PBXGroup;
+			children = (
+				05EE8363204F09F500639E31 /* DresserTests.swift */,
+				05EE8365204F09F500639E31 /* Info.plist */,
+			);
+			path = DresserTests;
+			sourceTree = "<group>";
+		};
+		05EE836D204F09F500639E31 /* DresserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05EE836E204F09F500639E31 /* DresserUITests.swift */,
+				05EE8370204F09F500639E31 /* Info.plist */,
+			);
+			path = DresserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05EE834A204F09F500639E31 /* Dresser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05EE8373204F09F500639E31 /* Build configuration list for PBXNativeTarget "Dresser" */;
+			buildPhases = (
+				05EE8347204F09F500639E31 /* Sources */,
+				05EE8348204F09F500639E31 /* Frameworks */,
+				05EE8349204F09F500639E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dresser;
+			productName = Dresser;
+			productReference = 05EE834B204F09F500639E31 /* Dresser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05EE835E204F09F500639E31 /* DresserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05EE8376204F09F500639E31 /* Build configuration list for PBXNativeTarget "DresserTests" */;
+			buildPhases = (
+				05EE835B204F09F500639E31 /* Sources */,
+				05EE835C204F09F500639E31 /* Frameworks */,
+				05EE835D204F09F500639E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05EE8361204F09F500639E31 /* PBXTargetDependency */,
+			);
+			name = DresserTests;
+			productName = DresserTests;
+			productReference = 05EE835F204F09F500639E31 /* DresserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05EE8369204F09F500639E31 /* DresserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05EE8379204F09F500639E31 /* Build configuration list for PBXNativeTarget "DresserUITests" */;
+			buildPhases = (
+				05EE8366204F09F500639E31 /* Sources */,
+				05EE8367204F09F500639E31 /* Frameworks */,
+				05EE8368204F09F500639E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05EE836C204F09F500639E31 /* PBXTargetDependency */,
+			);
+			name = DresserUITests;
+			productName = DresserUITests;
+			productReference = 05EE836A204F09F500639E31 /* DresserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05EE8343204F09F500639E31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Elijah Cutler";
+				TargetAttributes = {
+					05EE834A204F09F500639E31 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					05EE835E204F09F500639E31 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05EE834A204F09F500639E31;
+					};
+					05EE8369204F09F500639E31 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05EE834A204F09F500639E31;
+					};
+				};
+			};
+			buildConfigurationList = 05EE8346204F09F500639E31 /* Build configuration list for PBXProject "Dresser" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05EE8342204F09F500639E31;
+			productRefGroup = 05EE834C204F09F500639E31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05EE834A204F09F500639E31 /* Dresser */,
+				05EE835E204F09F500639E31 /* DresserTests */,
+				05EE8369204F09F500639E31 /* DresserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05EE8349204F09F500639E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05EE8359204F09F500639E31 /* LaunchScreen.storyboard in Resources */,
+				05EE8356204F09F500639E31 /* Assets.xcassets in Resources */,
+				05EE8354204F09F500639E31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05EE835D204F09F500639E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05EE8368204F09F500639E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05EE8347204F09F500639E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05EE8351204F09F500639E31 /* ViewController.swift in Sources */,
+				05EE834F204F09F500639E31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05EE835B204F09F500639E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05EE8364204F09F500639E31 /* DresserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05EE8366204F09F500639E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05EE836F204F09F500639E31 /* DresserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05EE8361204F09F500639E31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05EE834A204F09F500639E31 /* Dresser */;
+			targetProxy = 05EE8360204F09F500639E31 /* PBXContainerItemProxy */;
+		};
+		05EE836C204F09F500639E31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05EE834A204F09F500639E31 /* Dresser */;
+			targetProxy = 05EE836B204F09F500639E31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05EE8352204F09F500639E31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05EE8353204F09F500639E31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05EE8357204F09F500639E31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05EE8358204F09F500639E31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05EE8371204F09F500639E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05EE8372204F09F500639E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05EE8374204F09F500639E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63B835CZ2U;
+				INFOPLIST_FILE = Dresser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ElijahCutler.Dresser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05EE8375204F09F500639E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63B835CZ2U;
+				INFOPLIST_FILE = Dresser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ElijahCutler.Dresser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05EE8377204F09F500639E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63B835CZ2U;
+				INFOPLIST_FILE = DresserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ElijahCutler.DresserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dresser.app/Dresser";
+			};
+			name = Debug;
+		};
+		05EE8378204F09F500639E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63B835CZ2U;
+				INFOPLIST_FILE = DresserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ElijahCutler.DresserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dresser.app/Dresser";
+			};
+			name = Release;
+		};
+		05EE837A204F09F500639E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63B835CZ2U;
+				INFOPLIST_FILE = DresserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ElijahCutler.DresserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dresser;
+			};
+			name = Debug;
+		};
+		05EE837B204F09F500639E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63B835CZ2U;
+				INFOPLIST_FILE = DresserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ElijahCutler.DresserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dresser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05EE8346204F09F500639E31 /* Build configuration list for PBXProject "Dresser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05EE8371204F09F500639E31 /* Debug */,
+				05EE8372204F09F500639E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05EE8373204F09F500639E31 /* Build configuration list for PBXNativeTarget "Dresser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05EE8374204F09F500639E31 /* Debug */,
+				05EE8375204F09F500639E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05EE8376204F09F500639E31 /* Build configuration list for PBXNativeTarget "DresserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05EE8377204F09F500639E31 /* Debug */,
+				05EE8378204F09F500639E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05EE8379204F09F500639E31 /* Build configuration list for PBXNativeTarget "DresserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05EE837A204F09F500639E31 /* Debug */,
+				05EE837B204F09F500639E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05EE8343204F09F500639E31 /* Project object */;
+}
